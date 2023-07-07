@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <fieldset>
+        <legend>
+          Sign up
+        </legend>
+        <label for="fullname">Fullname:</label>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          placeholder="enter your full name"
+        />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="enter your email"
+        />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <br /><br />
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone" id="phone" />
+        <br /><br />
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+        <br /><br />
+        <label for="religion">Religion</label>
+        <input type="radio" name="religion" id="religion"/>Islam
+        <input type="radio" name="religion" id="religion"/>Hindu
+        <input type="radio" name="religion" id="religion" />Christain <br /><br />
+        <label for="dob">Date of birth:</label>
+        <input type="date" name="dob" id="dob" />
+        <input type="time" />
+        <br /><br />
+        <label for="checkbox"></label>
+        <input type="checkbox" name="checkbox" id="checkbox">Bike
+        <input type="checkbox" name="checkbox" id="checkbox">Cycle
+        <br><br>
+        <label for="file">Upload file</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="country">Country</label>
+        <input list="country">
+       <datalist id="country">
+         <option value="Bangladesh"></option>
+         <option value="Canada"></option>
+         <option value="Australia"></option>
+    </datalist>
+    <br><br>
+        <label for="color">Select color</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        <br /><br/>
+        <label for="submit">Submit</label>
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
